@@ -61,8 +61,9 @@ False Positives (FP): 18
 #### Fake & True : 44898 row 
 #### Crawling(time) & Generated News(GPT3.5) : 11133 row 
 
-True 분포 / Fake 분포
-![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/21fbb6f3-f1ef-464d-bbbe-34ec588cae69) ![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/17b61f9d-d88f-428e-a680-5cbe79778e44)
+#### True 분포 / Fake 분포
+![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/21fbb6f3-f1ef-464d-bbbe-34ec588cae69)
+![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/17b61f9d-d88f-428e-a680-5cbe79778e44)
 
 
 
