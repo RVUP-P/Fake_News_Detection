@@ -55,6 +55,11 @@
 #### False Positives (FP): 18
 
 ---------------------------------------
+### ■■ Project Report (국제 표준 ISO/IEC TS 4213:2022에 따른 Report)
+![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/396bce6f-4901-408a-a9b1-7b021a720805)
+
+
+---------------------------------------
 
 ### ■■ 추가 데이터 셋 구성 
 #### -기본 제공 데이터 셋 
