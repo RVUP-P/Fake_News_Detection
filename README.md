@@ -59,14 +59,36 @@ False Positives (FP): 18
 ### ■■ 추가 데이터 셋 구성 
 #### 기본 제공 데이터 셋 
 #### Fake & True : 44898 row 
-#### Crawling(time) & Generated News(GPT3.5) : 11133 row 
-
+#### Crawling(time) & Generated Fake News(GPT3.5) : 11133 row 
+#### 
 #### True 분포 / Fake 분포
 ![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/21fbb6f3-f1ef-464d-bbbe-34ec588cae69)
 ![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/17b61f9d-d88f-428e-a680-5cbe79778e44)
-
-
-
+####
+#### Crawling(Time) 분포 / Generated News(GPT3.5) 분포 
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d1bb09b3-040b-417a-a591-fae2ba496529/d311be76-a63b-43a7-a730-72f0c4784d9d/Untitled.png)
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d1bb09b3-040b-417a-a591-fae2ba496529/d9876b05-a174-4f26-bcc0-694c7ae633f4/Untitled.png)
+####
+#### Crawling(Time) 방법 
+#### Time지에서 politics 뉴스기사를 Crawling하여 data 수집 
+#### -> 뉴스 기사 본문의 길이가 일정치 않음(수백~수만)
+#### -> 기존에 제공된 fake/true data set의 뉴스기사길이 분포를 참고하여 본문의 길이가 800~4000자인 기사만 수집
+####
+#### Generated Fake News(GPT3.5) 방법 
+#### ChatGPT API를 활용하여 Fake News를 생성 (ChatGPT3.5Turbo)
+#### 1.API를 사용하지 않는 경우에는 생성도 느리고 또 긴 뉴스기사를 중복없이 작성하기 어려움이 있었음. 
+#### 2.API에서도 프롬포팅을 다회 진행 해봤을 때, 특정 주제에 한정된 뉴스 기사 생성이 쉽지 않았음.
+#### -> Time지에서 크롤링한 뉴스 기사의 제목을 활용하여 해당 제목에 맞게 가짜 뉴스를 생성해달라고 프롬포팅실시 
+#### -> 단, 기존과 동일한 기사 제목을 가지고  News생성시 기사 원문에 너무 똑같아질 것을 고려하여 기존의 뉴스제목을 참고하여 제목을 재생성하고 생성된 새로운 기사 제목을 가지고 뉴스기사 본문을 작성하도록 진행 
+#### -> Max Token 수를 조정하여 기존에 제공된 Fake/True 뉴스기사와 비슷한 기사 본문 길이를 확보함.
+####
+#### 샘플 평가 (GPT-4) 
+![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/6ee148af-64c1-46b9-81b8-a81d7f25eae0)
+####
+#### API 사용료 : 8.59$
+#### API 호출 : 11988 , 사용 Token : 4,474,000 
+![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/38555fd2-c857-49c0-8fb6-10bb112cb0c7)
+![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/97fcee81-25b5-45be-964c-2602b9297ad0)
 
 
 
