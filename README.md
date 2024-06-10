@@ -32,12 +32,12 @@
 #### 1.기존 모델
 #### Model Accuracy :  0.9582397844634036
 #### True Positives (TP): 1042
-#### False Positives (FP): 31
+#### False Positives (FP): 31 <br>
 
 #### 2.Functional API로 모델 정의 + Keras의 attention 레이어 사용
 #### Model Accuracy :  0.9582397844634036
 #### True Positives (TP): 1041
-#### False Positives (FP): 30
+#### False Positives (FP): 30 <br> 
 
 #### 3.Sequential API로 모델 정의 + 직접 정의한 SelfAttention 클래스 사용
 #### Model Accuracy :  0.9568926807364168
