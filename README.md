@@ -28,12 +28,12 @@
 ---------------------------------------
 
 ### ■■ 성능 개선 시도별 ACC  
-<br></br>
+<br>
 #### 1.기존 모델
 #### Model Accuracy :  0.9582397844634036
 #### True Positives (TP): 1042
 #### False Positives (FP): 31
-
+<br>
 #### 2.Functional API로 모델 정의 + Keras의 attention 레이어 사용
 #### Model Accuracy :  0.9582397844634036
 #### True Positives (TP): 1041
