@@ -75,12 +75,12 @@
 ![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/6346e1df-ac51-482f-9c2e-cbebcc5221c0)
 ![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/ccb704ea-9815-4349-8aac-5c4264fb0760)
 
-#### Crawling(Time) 방법 
+#### ■ Crawling(Time) 방법 
 #### Time지에서 politics 뉴스기사를 Crawling하여 data 수집 
 #### -> 뉴스 기사 본문의 길이가 일정치 않음(수백~수만)
 #### -> 기존에 제공된 fake/true data set의 뉴스기사길이 분포를 참고하여 본문의 길이가 800~4000자인 기사만 수집
 ####
-#### Generated Fake News(GPT3.5) 방법 
+#### ■ Generated Fake News(GPT3.5) 방법 
 #### ChatGPT API를 활용하여 Fake News를 생성 (ChatGPT3.5Turbo)
 #### 1.API를 사용하지 않는 경우에는 생성도 느리고 또 긴 뉴스기사를 중복없이 작성하기 어려움이 있었음. 
 #### 2.API에서도 프롬포팅을 다회 진행 해봤을 때, 특정 주제에 한정된 뉴스 기사 생성이 쉽지 않았음.
@@ -88,9 +88,9 @@
 #### -> 단, 기존과 동일한 기사 제목을 가지고  News생성시 기사 원문에 너무 똑같아질 것을 고려하여 기존의 뉴스제목을 참고하여 제목을 재생성하고 생성된 새로운 기사 제목을 가지고 뉴스기사 본문을 작성하도록 진행 
 #### -> Max Token 수를 조정하여 기존에 제공된 Fake/True 뉴스기사와 비슷한 기사 본문 길이를 확보함.
 ####
-#### 샘플 평가 (GPT-4) 
+#### ■ 샘플 평가 (GPT-4) 
 ![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/6ee148af-64c1-46b9-81b8-a81d7f25eae0)
-####
+#### ■ 추가 API
 #### API 사용료 : 8.59$
 #### API 호출 : 11988 , 사용 Token : 4,474,000 
 ![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/38555fd2-c857-49c0-8fb6-10bb112cb0c7)
