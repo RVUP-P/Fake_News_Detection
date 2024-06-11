@@ -28,17 +28,17 @@
 ---------------------------------------
 
 ### ■■ 성능 개선 시도별 ACC (추가 data 반영 x, 기존 제공 data set만 사용한 결과)
-기존 모델
-Model Accuracy :  0.9957683741648107
-True Positives (TP): 4641
-False Positives (FP): 29
-Functional API로 모델 정의 + Keras의 attention 레이어 사용
-Model Accuracy :  0.9967706013363029
-True Positives (TP): 4641
-False Positives (FP): 20
-Sequential API로 모델 정의 + 직접 정의한 SelfAttention 클래스 사용
-Model Accuracy :  0.9975501113585746
-True Positives (TP): 4642
+#### 기존 모델
+#### Model Accuracy :  0.9957683741648107
+#### True Positives (TP): 4641
+#### False Positives (FP): 29
+#### Functional API로 모델 정의 + Keras의 attention 레이어 사용
+#### Model Accuracy :  0.9967706013363029
+#### True Positives (TP): 4641
+#### False Positives (FP): 20
+#### Sequential API로 모델 정의 + 직접 정의한 SelfAttention 클래스 사용
+#### Model Accuracy :  0.9975501113585746
+#### True Positives (TP): 4642
 False Positives (FP): 14
 Functional API로 모델 정의 + Keras의 attention 레이어 사용 + 전처리
 Model Accuracy :  0.995879732739421
@@ -48,6 +48,14 @@ Sequential API로 모델 정의 + 직접 정의한 SelfAttention 클래스 사�
 Model Accuracy :  0.9946547884187082
 True Positives (TP): 4613
 False Positives (FP): 11
+	Accuracy	True Positives (TP)	False Positives (FP)
+기존 모델	0.995768374		
+			
+			
+			
+			
+			![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/dfcee1e3-c5be-4182-8402-8457811d27fb)
+
 
 
 ### ■■ 성능 개선 시도별 ACC  (추가 data 반영 o, Crawling/ChatGPT 생성 data set 추가한 결과)
