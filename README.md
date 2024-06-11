@@ -27,11 +27,11 @@
 
 ---------------------------------------
 
-### ■■ 성능 개선 시도별 ACC (추가 data 반영 x, 기존 제공 data만 사용한 결과)
+### ■■ 성능 개선 시도별 ACC (기존 제공 data 학습결과 )
 ![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/1f215c70-cae8-4703-afda-2cc0bef8ce8f)
 
 
-### ■■ 성능 개선 시도별 ACC  (추가 data 반영 o, Crawling/ChatGPT 생성 data 추가한 결과)
+### ■■ 성능 개선 시도별 ACC (Crawling/ChatGPT 생성 data 학습결과)
 ![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/d016628f-a2f9-479f-bfef-d3455a83f9cd)
 
 
