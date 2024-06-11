@@ -27,7 +27,30 @@
 
 ---------------------------------------
 
-### ■■ 성능 개선 시도별 ACC  
+### ■■ 성능 개선 시도별 ACC (추가 data 반영 x, 기존 제공 data set만 사용한 결과)
+기존 모델
+Model Accuracy :  0.9957683741648107
+True Positives (TP): 4641
+False Positives (FP): 29
+Functional API로 모델 정의 + Keras의 attention 레이어 사용
+Model Accuracy :  0.9967706013363029
+True Positives (TP): 4641
+False Positives (FP): 20
+Sequential API로 모델 정의 + 직접 정의한 SelfAttention 클래스 사용
+Model Accuracy :  0.9975501113585746
+True Positives (TP): 4642
+False Positives (FP): 14
+Functional API로 모델 정의 + Keras의 attention 레이어 사용 + 전처리
+Model Accuracy :  0.995879732739421
+True Positives (TP): 4622
+False Positives (FP): 9
+Sequential API로 모델 정의 + 직접 정의한 SelfAttention 클래스 사용 + 전처리
+Model Accuracy :  0.9946547884187082
+True Positives (TP): 4613
+False Positives (FP): 11
+
+
+### ■■ 성능 개선 시도별 ACC  (추가 data 반영 o, Crawling/ChatGPT 생성 data set 추가한 결과)
 
 #### 1.기존 모델
 #### Model Accuracy :  0.9582397844634036
