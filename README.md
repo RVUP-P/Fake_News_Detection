@@ -1,12 +1,12 @@
-# fake_news_detect
+# Fake_News_Detection PJ
 ---------------------------------------
 ### 2024 한양대 정보공학
 ### 인공지능1 정철현교수님 
 ### 고현주(6817), 이신영(6644), 전민규(4475), 조일경(4239)
-
 ---------------------------------------
 
-### ■■ 기본 모델 
+### ■■ 기본 모델(Ref Project)
+### Ref Project(Model) : https://github.com/Abhradipta/Fake-News-Detection
 #### [기본 모델]
 #### nltk의 stopwords + ‘from, subject, re, edu, use’ 제거, 3개 이하 단어 제거
 #### sklearn의 train_test_split로 훈련 데이터와 테스트 데이터 8:2 분할
