@@ -32,7 +32,8 @@
 
 
 ### ■■ 성능 개선 시도별 ACC (Crawling/ChatGPT 생성 data 학습결과)
-![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/d016628f-a2f9-479f-bfef-d3455a83f9cd)
+![image](https://github.com/RVUP-P/Fake_News_Detection/assets/101576044/23f8e0ed-ca0f-4682-a915-d9ff71d412ba)
+
 
 
 ---------------------------------------
