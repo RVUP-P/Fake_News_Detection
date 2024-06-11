@@ -54,8 +54,10 @@
 ![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/17b61f9d-d88f-428e-a680-5cbe79778e44)
 
 #### Crawling(Time) 분포 / Generated News(GPT3.5) 분포 
-![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/6346e1df-ac51-482f-9c2e-cbebcc5221c0)
-![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/ccb704ea-9815-4349-8aac-5c4264fb0760)
+![image](https://github.com/RVUP-P/Fake_News_Detection/assets/101576044/41ccb496-1525-41ef-88b5-d4d8d809dba6)
+![image](https://github.com/RVUP-P/Fake_News_Detection/assets/101576044/96d5698c-d719-49a5-9f9f-545f8eb98f93)
+
+
 
 #### ■ Crawling(Time) 방법 
 #### Time지에서 politics 뉴스기사를 Crawling하여 data 수집 
