@@ -1,4 +1,4 @@
-<img width="703" alt="image" src="https://github.com/RVUP-P/Fake_News_Detection/assets/101576044/a8c73f27-b722-4548-8791-3b271c72462d"># Fake_News_Detection PJ
+# Fake_News_Detection PJ
 ---------------------------------------
 ### 2024 한양대 정보공학
 ### 인공지능1 정철현교수님 
