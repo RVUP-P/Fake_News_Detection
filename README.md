@@ -73,10 +73,12 @@
 #### -> Max Token 수를 조정하여 기존에 제공된 Fake/True 뉴스기사와 비슷한 기사 본문 길이를 확보함.
 ---------------------------------------
 #### ■ 생성된 Fake News 샘플 평가 (GPT-4) 
+-> Crawling한 News와 생성한 Fake News 구분이 어렵다는 평가 
 ![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/6ee148af-64c1-46b9-81b8-a81d7f25eae0)
 
 
 #### ■ 기존에 제공된 Fake News 샘플 평가 (GPT-4) 
+-> Fake News가 가짜 같다는 평가 
 <img width="703" alt="image" src="https://github.com/RVUP-P/Fake_News_Detection/assets/101576044/6e2b2c41-6ab1-46b0-95f3-b33818f7a50e">
 
 
