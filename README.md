@@ -79,7 +79,7 @@
 
 #### ■ 기존에 제공된 Fake News 샘플 평가 (GPT-4) 
 -> Fake News가 가짜 같다는 평가 
-<img width="703" alt="image" src="https://github.com/RVUP-P/Fake_News_Detection/assets/101576044/6e2b2c41-6ab1-46b0-95f3-b33818f7a50e">
+![image](https://github.com/RVUP-P/Fake_News_Detection/assets/101576044/6e2b2c41-6ab1-46b0-95f3-b33818f7a50e)
 
 
 
