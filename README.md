@@ -1,4 +1,4 @@
-# Fake_News_Detection PJ
+<img width="703" alt="image" src="https://github.com/RVUP-P/Fake_News_Detection/assets/101576044/a8c73f27-b722-4548-8791-3b271c72462d"># Fake_News_Detection PJ
 ---------------------------------------
 ### 2024 한양대 정보공학
 ### 인공지능1 정철현교수님 
@@ -72,8 +72,16 @@
 #### -> 단, 기존과 동일한 기사 제목을 가지고  News생성시 기사 원문에 너무 똑같아질 것을 고려하여 기존의 뉴스제목을 참고하여 제목을 재생성하고 생성된 새로운 기사 제목을 가지고 뉴스기사 본문을 작성하도록 진행 
 #### -> Max Token 수를 조정하여 기존에 제공된 Fake/True 뉴스기사와 비슷한 기사 본문 길이를 확보함.
 ---------------------------------------
-#### ■ 샘플 평가 (GPT-4) 
+#### ■ 생성된 Fake News 샘플 평가 (GPT-4) 
 ![image](https://github.com/RVUP-P/fake_news_detect/assets/101576044/6ee148af-64c1-46b9-81b8-a81d7f25eae0)
+
+
+#### ■ 기존에 제공된 Fake News 샘플 평가 (GPT-4) 
+<img width="703" alt="image" src="https://github.com/RVUP-P/Fake_News_Detection/assets/101576044/6e2b2c41-6ab1-46b0-95f3-b33818f7a50e">
+
+
+
+
 #### ■ 추가 API
 #### API 사용료 : 8.59$
 #### API 호출 : 11988 , 사용 Token : 4,474,000 
